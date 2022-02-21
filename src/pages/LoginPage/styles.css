@@ -1,0 +1,55 @@
+#login {
+  background: url('https://cdn.dribbble.com/users/548267/screenshots/15796771/media/2c97aca97a15ee47830fdb9d2f15a57d.png?compress=1&resize=1200x900&vertical=top');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 2rem;
+}
+
+#login .form {
+  background-color: #e7e7e76e;
+  width: 100%;
+  max-width: 480px;
+  padding: 4.5rem;
+}
+
+#login .field {
+  padding-bottom: 0.5rem;
+}
+
+#login .field label {
+  display: block;
+}
+
+#login .field input {
+  outline: none;
+  width: 100%;
+  padding: 20px 0;
+  border: none;
+  border-radius: 7px;
+}
+
+#login .actions {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+#login button {
+  background-color: rgb(255, 0, 55);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  color: #fff;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 1s all ease-in;
+}
+
+#login button:hover {
+  opacity: 0.8;
+}
