@@ -12,7 +12,6 @@ export const  HomePage = () => {
   return (
     <>
       <h1>Home Autenticada</h1>
-      <p>{String(authenticated)}</p>
       <button onClick={handleLogout}>Deslogar</button>
     </>
   )
